@@ -1,0 +1,19 @@
+.login-container{
+    background: #fafafa;
+}
+
+.login-card{
+    box-shadow: 0 0 0 #242728;
+    border-radius: 5px;
+    background: #efefef;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 14%), 0 7px 12px -5px rgb(33 33 33 / 46%);
+}
+
+.login-card input{
+    line-height: 36px;
+    margin-top: 10px;
+}
+
+.login-card .form-check .form-check-label{
+    vertical-align: -webkit-baseline-middle;
+}

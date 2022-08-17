@@ -1,0 +1,114 @@
+.p2p-container{
+    background: #fafafa;
+}
+.p2p-card{
+    padding: 15px 15px;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    background: #efefef;
+    padding: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 18px 0 rgb(0 0 0 / 14%), 0 7px 12px -5px rgb(33 33 33 / 46%);
+    font-size: 14px;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.p2p-card .peer{
+    padding: 10px;
+    text-align: center;
+    width: 75px;
+    cursor: pointer;
+    transition: width 1s;
+}
+
+.p2p-card .peer.active{
+    background: green;
+    color: white;
+    width: 100px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.search-peer-record{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #e3e3e3;
+    margin: 18px 23px;
+    padding: 12px 9px;
+    border-radius: 5px;
+    border: 1px solid #e3e3e3;
+}
+
+@media screen and (max-width:512px) {
+    .search-peer-record{
+    margin: 0px;
+    }
+}
+
+.p2p-input-group1{
+    /* justify-content: space-evenly; */
+    flex-wrap: nowrap;
+}
+
+.p2p-input-group2{
+    /* justify-content: space-evenly; */
+    flex-wrap: nowrap;
+}
+
+.p2p-input-group1 span{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
+.p2p-input-group2 span{
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
+
+.p2p-input-group1 input{
+    border: 1px solid #d2cece;
+    background: #efefef;
+    border-radius: 5px 0px 0px 5px !important;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.p2p-input-group2 button.dropdown-toggle{
+    border: 1px solid #d2cece;
+    background: #efefef;
+    width: 150px;
+    text-align: right;
+    color: #6c757d;
+    border-radius: 5px !important;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.p2p-input-group2 button.dropdown-toggle:hover{
+    border: 1px solid #d2cece;
+    background: #efefef;
+    width: 150px;
+    text-align: right;
+    color: #6c757d;
+    font-size: 14px;
+    border-radius: 5px !important;
+}
+
+.p2p-input-group1 button.dropdown-toggle{
+    border: 1px solid #d2cece;
+    background: #efefef;
+    font-size: 14px;
+    border-radius: 0px 5px 5px 0px !important;
+}
+
+.border-right{
+    border-right: 1px solid #d3c6c6;
+}
+
+.overflow-x-auto{
+    overflow-x: auto;
+}

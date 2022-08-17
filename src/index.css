@@ -1,0 +1,118 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+body {
+  margin: 0;
+  font-family: "Lato",sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: linear-gradient(to left top, #453E79,#2E2B4A); */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,h2,h3,h4,h5{
+  font-family: "Lato",sans-serif !important;
+}
+
+h1{
+  font-size: 46px !important;
+    font-weight: 600 !important;
+    line-height: 60px !important;
+    color: #564c4d;
+    font-style: italic;
+}
+
+h2{
+  color: #564c4d;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 15px;
+}
+
+h2.main-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0 0 30px;
+    padding-left: 25px;
+    display: inline-block;
+    font-style: italic;
+    position: relative;
+}
+
+h2.main-title::before{
+  content: "";
+    background-image: url('./assets/home/title-front-img.png');
+    width: 41px;
+    height: 32px;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+
+p{
+  font-family: "Lato",sans-serif !important;
+  /* font-style: normal; */
+  /* font-weight: normal; */
+  font-size: 16px;
+  line-height: 33px;
+  color: black;
+}
+
+@media screen and (max-width:760px) {
+  h1{
+    font-size: 43px !important;
+  }
+}
+
+.clr-primary{
+  color: green;
+}
+
+.clr-danger{
+  color: red;
+}
+
+.custom-btn-primary{
+  background: #028a0f !important;
+  border: 1px solid #028a0f !important;
+  color: #fff !important;
+  line-height: 36px;
+  font-size: 14px;
+  padding: 1px 20px;
+  border-radius: 5px;
+  transition: all .2s;
+  margin-top: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.custom-btn-primary:hover{
+    background: white !important;
+    border: 1px solid #028a0f !important;
+      color: green !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+  color: gray !important;
+  width: 100%;
+  border: none !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #028a0f !important;
+  background: none !important;
+  border-bottom: 2px solid !important;
+  border-color: #028a0f !important;
+}
+
+.nav-tabs .nav-item{
+  flex-grow: 1;
+  text-align: left !important;
+}

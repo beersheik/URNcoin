@@ -1,0 +1,39 @@
+.faq-container{
+    background: #fafafa;
+}
+.faq-title{
+    font-size: 30px !important;
+    font-family: "Lato",sans-serif!important;
+    color: #fd802b;
+    position: relative;
+    text-align: center;
+}
+
+.faq-title::before{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background: #fd802b;
+    position: absolute;
+    bottom: 5px;
+    left: 48%;
+}
+
+.faq-card{
+    border: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+    color: rgba(0,0,0,.87) !important;
+    background: #fff !important;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+}
+
+.faq-card .accordion-header .accordion-button{
+    color: black;
+    outline: none;
+    border: none !important;
+    box-shadow: none !important;
+    background: #efefef !important;
+}

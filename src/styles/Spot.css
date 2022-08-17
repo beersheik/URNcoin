@@ -1,0 +1,91 @@
+.spot-container{
+    background: #fafafa;
+}
+.spot-header{
+    background: #eaecef!important;
+    border: 1px solid #dbdbdb!important;
+    border-radius: 5px!important;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    flex-grow: 1;
+    overflow: auto;
+}
+
+.spot-header-select{
+    display: flex;
+    align-items: baseline;
+}
+
+.spot-header-details{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:1120px) {
+    .spot-header-details{
+    width: auto;
+    }
+}
+
+.clr-green{
+    color: #09c178;
+}
+
+.spot-box-container{
+    background: #eaecef!important;
+    border: 1px solid #dbdbdb!important;
+    border-radius: 5px!important;
+    min-height: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.spot-order-container{
+    background: #eaecef!important;
+    border: 1px solid #dbdbdb!important;
+    border-radius: 5px!important;
+    /* min-height: 400px;
+    max-height: 400px; */
+    min-height: 100%;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.spot-box-header-wrapper .title{
+    color: #2eaa39;
+    font-weight: bold;
+}
+
+.spot-box-header-wrapper .title span{
+    color: gray;
+    font-size: 12px;
+}
+
+.spot-table{
+    font-size: 14px !important;
+}
+
+.tableFixHead{
+    overflow: auto; height: 300px; 
+}
+
+.tableFixHead thead th{
+    position: sticky; top: 0; z-index: 1;
+    background: #eaecef;
+}
+
+.spot-table th,td{
+    text-align: center;
+    color: gray;
+    font-size: 14px !important;
+}
+
+.spot-header-details h6{
+    flex-grow: 1;
+    margin: 0 10px;
+    min-width: 100px;
+}

@@ -1,0 +1,51 @@
+.footer-wrapper{
+    background: white;
+    padding: 15px;
+}
+
+.footer-wrapper img{
+    width: 113px;
+    vertical-align: top;
+    /* margin-top: 25px; */
+}
+
+.footer-wrapper ul{
+    /* padding-top: 25px; */
+    list-style: none;
+}
+
+.btn-grp-footer input{
+    border: 1px solid green;
+    outline: green;
+    border-radius: 5px 0px 0px 5px;
+    color: black;
+}
+
+.btn-grp-footer button{
+    border: 1px solid green;
+    outline: green;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    background: green;
+}
+
+.btn-grp-footer button:hover{
+    border: 1px solid green;
+    background: white;
+    color: green;
+}
+
+
+.social-link ul{
+    display: flex;
+}
+
+.social-link i{
+    font-size: 26px;
+    color: gray;
+    margin-right: 15px;
+}
+
+.social-link i:hover{
+    color: green;
+}
